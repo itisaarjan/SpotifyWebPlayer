@@ -74,6 +74,8 @@ body{
     border-radius: 1rem;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 .library-title{
     font-size: 18px;
@@ -110,6 +112,116 @@ body{
 }
 .library-card-box{
     padding: 0px 8px 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+.first-card{
+    background-color:#242424 ;
+    margin: 8px 0px;
+    line-height: 10px;
+    border-radius: 1rem;
+    padding:1rem 2rem;
+    /* overflow:; */
+}
+.first-card p{
+    font-size: 12px;
+}
+.first-card h5{
+    margin: 0.5rem 0rem;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: 30%;
+    margin-bottom: 0.9rem;
+}
+#card-button{
+    margin-top: 1.2rem;
+    background-color: white;
+    font-size: 14px;
+    padding: 0.25rem 1rem;
+    color: black;
+    display: inline-block;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    display: flex;
+}
+#card-button p a{
+    display: inline-block;
+    margin: auto;
+    font-size: 14px;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+#card-button:hover{
+    background-color: white;
+    /* font-size: 17px; */
+    padding: 0.25rem 1rem;
+    color: black;
+    display: inline-block;
+    width: 7.2rem;
+    height: 2.1rem;
+    border-radius: 10rem;
+    font-weight: 500;
+    display: flex;
+}
+#card-button p a:hover{
+    font-size: 15px;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+.second-card{
+    margin:8px 0px ;
+}
+#card-button-1{
+    margin-top: 1.2rem;
+    background-color: white;
+    font-size: 14px;
+    padding: 0.25rem 1rem;
+    color: black;
+    display: inline-block;
+    width: 7.88rem;
+    height: 2rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    display: flex;
+}
+#card-button-1 p a{
+    display: inline-block;
+    margin: auto;
+    font-size: 14px;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+#card-button-1:hover{
+    margin-top: 1.2rem;
+    background-color: white;
+    font-size: 14px;
+    padding: 0.25rem 1rem;
+    color: black;
+    display: inline-block;
+    width: 8.5rem;
+    height: 2.1rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    display: flex;
+}
+#card-button-1 p a:hover{
+    display: inline-block;
+    margin: auto;
+    font-size: 15px;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+.references{
+    width: 24.25rem;
+    flex: 1;
+    background-color: #121212;
 }
 .main-content{
     background-color: #121212;
